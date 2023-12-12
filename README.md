@@ -11,7 +11,7 @@ ICMP’nin temel amacı ağdaki bir bilgisayarın kullanılabilir olup olmadığ
   
 * **Time Exceeded:** Bir paketin belirli bir süre içinde hedefe ulaşamaması durumunda gönderilen bir ilettir.
 
-görsel
+![ICMP](https://github.com/kaaneeksi/ICMP-Internet-Control-Message-Protocol/blob/main/G%C3%B6rseller/ICMP.jpg)
 
 ICMP'yi bir örnek ile açıklamak gerekirse:
 
@@ -29,7 +29,7 @@ Hedef bilgisayar, ICMP Echo Request mesajını aldığında, bir ICMP Echo Reply
 
 Bu basit örnek, iki bilgisayar arasındaki bağlantıyı kontrol etmek için ICMP'nin nasıl kullanılabileceğini gösterir.
 
-Burada **Ping** teriminin nereden gelmiş olduğunu öğrenmiş oluyoruz. Kısaca açıklamak istersek:
+_Burada **Ping** teriminin nereden gelmiş olduğunu öğrenmiş oluyoruz. Kısaca açıklamak istersek:_
 
  ## Ping
 "ping" terimi, genellikle ICMP Echo Request mesajlarını kullanarak bir hedefe ulaşılabilirliği kontrol etmek için yapılan bir ağ aracının adıdır. Yani, "ping" aslında ICMP protokolünü kullanarak bir hedefe Echo Request mesajları gönderme işlemidir. Bu işlem, hedef bilgisayarın erişilebilir olup olmadığını kontrol etmek ve ağ gecikmeyi ölçmek amacıyla yaygın olarak kullanılır.
